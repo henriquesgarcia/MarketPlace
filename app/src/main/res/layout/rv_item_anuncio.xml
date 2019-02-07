@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="17dp"
+    android:layout_marginEnd="17dp"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="4dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@mipmap/img_product" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tv_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginEnd="17dp"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="Bicicleta Houston - 21 marchas"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="17dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_localizacao" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/google_sans_regular"
+                    android:text="Primavera - Teresina"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_preco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="17dp"
+                android:fontFamily="@font/google_sans_medium"
+                android:text="R$ 169.00"
+                android:textColor="#38b61d"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="17dp"
+                android:fontFamily="@font/google_sans_regular"
+                android:text="Descrição"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginEnd="17dp"
+                android:background="#f2f2f2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_localizacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/google_sans_regular"
+                    android:text="Bicicleta em bom estado de conservação. Pouco utilizada. Perfeita para passear no final de semana ou para prática de atividade física"
+                    android:textColor="#707070" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="219dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_custom"
+            android:backgroundTint="#38b61d"
+            android:enabled="true"
+            android:fontFamily="@font/google_sans_bold"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="ENTRAR EM CONTATO"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

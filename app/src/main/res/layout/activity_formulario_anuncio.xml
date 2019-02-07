@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.henrique.vendas.FormularioAnuncioActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        app:hintTextAppearance="@style/Hint2">
+
+        <EditText
+            android:id="@+id/edit_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textShortMessage"
+            android:hint="@string/titulo"
+            android:fontFamily="@font/google_sans_regular"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        app:hintTextAppearance="@style/Hint2">
+
+        <EditText
+            android:id="@+id/edit_preco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/preco"
+            android:fontFamily="@font/google_sans_regular"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        app:hintTextAppearance="@style/Hint2">
+
+        <EditText
+            android:id="@+id/edit_localizacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textShortMessage"
+            android:hint="@string/localizacao"
+            android:fontFamily="@font/google_sans_regular"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_custom"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/google_sans_bold"
+        android:text="@string/salvar_anuncio"
+        android:onClick="salvarAnuncio"
+        android:enabled="true"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/img_screen"/>
+
+</LinearLayout>

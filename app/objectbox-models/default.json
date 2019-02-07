@@ -1,0 +1,78 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:976335813965392410",
+      "lastPropertyId": "5:5466926373955976687",
+      "name": "Anuncio",
+      "properties": [
+        {
+          "id": "1:978955248963080958",
+          "name": "id"
+        },
+        {
+          "id": "2:3609350330433743043",
+          "name": "titulo"
+        },
+        {
+          "id": "3:5798793321946057578",
+          "name": "valor"
+        },
+        {
+          "id": "4:7722850999037086262",
+          "name": "localizacao"
+        },
+        {
+          "id": "5:5466926373955976687",
+          "name": "idDono"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:780324069782073311",
+      "lastPropertyId": "6:940693165796320434",
+      "name": "Usuario",
+      "properties": [
+        {
+          "id": "1:5132510399335123461",
+          "name": "id"
+        },
+        {
+          "id": "2:5302921419465570187",
+          "name": "email"
+        },
+        {
+          "id": "3:7259790387789100024",
+          "name": "senha"
+        },
+        {
+          "id": "4:6872833740095638435",
+          "name": "nome"
+        },
+        {
+          "id": "5:4133945484746775088",
+          "name": "tel"
+        },
+        {
+          "id": "6:940693165796320434",
+          "name": "ende"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:780324069782073311",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
